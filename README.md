@@ -1,4 +1,9 @@
-# CS59300CVD Assignment 2
+# Blob Detection
+Blob detection is a task that identifies and localizes regions in an image which stand out in terms of intensity, texture, or other properties, often representing features or objects of interest. To detect the blobs, various methods such as Difference of Gaussians (DoG) or Laplacian of Gaussian (LoG) are used to identify regions with significant intensity changes or distinct shapes across different scales.
+
+![image](https://github.com/user-attachments/assets/80bb608a-63af-4902-8fb1-333ab869a5ec)
+
+
 
 ## Requirements
 ```python
@@ -11,25 +16,6 @@ torchvision==0.19.0
 ```
 
 ## How to run
-
-## Part 1
-
-### run all images with each metrics
-```python
-python main_p1.py -i all
-```
-
-### run specific image with specific metric
-```python
-python main_p1.py -i [image name] -m [metric]
-ex) python main_p1.py -i 1 -m ncc
-```
-- image name: 1 to 6
-- metric: {mse, ncc}
-
-
-Results are saved in `data/part1`.
-## Part 2
 
 ### run all with default settings
 ```python
